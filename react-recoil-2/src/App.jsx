@@ -1,11 +1,12 @@
-import React from "react";
-import { RecoilRoot } from "recoil";
 import "./App.css";
-import Buttons from "./components/Buttons";
+import { RecoilRoot } from "recoil";
+// import Buttons from "./components/Buttons";
+import Buttons from "./components/ButtonBackend";
 
 function App() {
   return (
     <RecoilRoot>
+      {/* <Buttons /> */}
       <Buttons />
     </RecoilRoot>
   );
